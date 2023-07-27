@@ -17,6 +17,7 @@ if &background == "light"
 	let s:line          = "#EEEEEE"
 	let s:background    = "#fafafa"
 
+	let s:white         = "#E0DEF4"
 	let s:red           = "#D32F2F"
 	let s:pink          = "#C2185B"
 	let s:purple        = "#7B1FA2"
@@ -41,6 +42,7 @@ else
 	let s:line          = "#37474F"
 	let s:background    = "#263238"
 
+	let s:white         = "#E0DEF4"
 	let s:red           = "#EF5350"
 	let s:pink          = "#EC407A"
 	let s:purple        = "#AB47BC"
@@ -143,7 +145,7 @@ call s:HL("Error"          , s:foreground    , s:red           , '')
 call s:HL("Exception"      , s:light_green   , ''              , s:bold)
 call s:HL("Float"          , s:amber         , ''              , '')
 call s:HL("Function"       , s:blue          , ''              , '')
-call s:HL("Identifier"     , s:red           , ''              , '')
+call s:HL("Identifier"     , s:white           , ''              , '')
 call s:HL("Ignore"         , s:inconspicuous , ''              , '')
 call s:HL("Include"        , s:blue          , ''              , '')
 call s:HL("Keyword"        , s:light_green   , ''              , s:bold)
